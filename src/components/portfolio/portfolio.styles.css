@@ -1,0 +1,16 @@
+.portfolio-section {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* projects wrapper */
+.projects-wrapper {
+    width: 80%;
+    flex-wrap: wrap;
+}
+/* end of projects wrapper */

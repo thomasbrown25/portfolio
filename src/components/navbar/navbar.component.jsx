@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useRef, useEffect } from 'react';
 
 import { Link } from 'react-router-dom';
@@ -7,18 +8,27 @@ import './navbar.styles.css';
 const Navbar = () => {
     const navRef = useRef();
 
-    useEffect(() => {
-        const nav = navRef.current;
-        nav.addEventListener('scroll', () => {
-            console.log(nav);
-            if (window.scrollY >= nav.offsetTop) {
-                console.log('sticky');
-                nav.classList.add('stick');
-            } else {
-                nav.classList.remove('sticky');
-            }
-        });
-    }, []);
+    // const [navOffsetTop, setNavOffsetTop] = useState(0);
+
+    // useEffect(() => {
+    //     window.addEventListener('scroll', () => {
+    //         const navbarRef = navRef.current;
+    //         if (navOffsetTop === 0) setNavOffsetTop(navbarRef.offsetTop);
+    //         // console.log(window.scrollY, navbarRef.offsetTop);
+    //         // if (window.scrollY >= navbarRef.offsetTop) {
+    //         //     console.log('setting it');
+    //         //     setNavOffsetTop(navbarRef.offsetTop);
+    //         // }
+
+    //         if (navOffsetTop !== 0 && window.scrollY >= navOffsetTop) {
+    //             navbarRef.classList.add('sticky');
+    //         } else {
+    //             console.log(navOffsetTop);
+    //             navbarRef.classList.remove('sticky');
+    //         }
+    //     });
+    // }, []);
+
     return (
         <nav ref={navRef} className='navbar center'>
             <Link to={'/'} className='nav-link'>

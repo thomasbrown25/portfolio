@@ -1,11 +1,11 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import LineIcon from "react-lineicons";
-import ProgressiveImage from "react-progressive-image";
-import { Link, NavLink } from "react-router-dom";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import LineIcon from 'react-lineicons';
+import ProgressiveImage from 'react-progressive-graceful-image';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
-  const [information, setInformation] = useState("");
+  const [information, setInformation] = useState('');
   const [navigationToggler, setNavigationToggler] = useState(false);
 
   const handleNavigationToggler = () => {
@@ -13,13 +13,13 @@ function Header() {
   };
 
   useEffect(() => {
-    axios.get("/api/information").then((response) => {
+    axios.get('/api/information').then((response) => {
       setInformation(response.data);
     });
   }, []);
 
   return (
-    <nav className={navigationToggler ? "mi-header is-visible" : "mi-header"}>
+    <nav className={navigationToggler ? 'mi-header is-visible' : 'mi-header'}>
       <button onClick={handleNavigationToggler} className="mi-header-toggler">
         {!navigationToggler ? (
           <LineIcon name="menu" />
@@ -72,10 +72,7 @@ function Header() {
           </li>
         </ul>
         <p className="mi-header-copyright">
-          &copy; {new Date().getFullYear()}{" "}
-          <b>
-              Alexander Tech LLC
-          </b>
+          &copy; {new Date().getFullYear()} <b>Alexander Tech LLC</b>
         </p>
       </div>
     </nav>

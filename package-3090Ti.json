@@ -15,7 +15,6 @@
     "react-helmet": "^6.1.0",
     "react-lineicons": "^3.0.0",
     "react-on-screen": "^2.1.1",
-    "react-progressive-graceful-image": "^0.7.0",
     "react-router-dom": "6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
@@ -31,11 +30,7 @@
     "eject": "react-scripts eject"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 5 chrome version",
       "last 5 firefox version",

@@ -135,17 +135,17 @@ const database = {
       imageUrl: '/images/portfolio-image-2.jpg',
       largeImageUrl: ['/images/portfolio-image-2.jpg'],
       url: 'https://grand-hotel-app.azurewebsites.net/',
-      techList: ['VS Code', 'React']
+      techList: ['VS Code', 'React', 'CSS3']
     },
     {
       id: 4,
       title: 'Nature Tours',
       subtitle:
         'A mock nature / outdoors website that displays some interactive CSS and very slick design.',
-      imageUrl: '/images/portfolio-image-2.jpg',
-      largeImageUrl: ['/images/portfolio-image-2.jpg'],
+      imageUrl: '/images/portfolio-image-4.jpg',
+      largeImageUrl: ['/images/portfolio-image-4.jpg'],
       url: 'https://grand-hotel-app.azurewebsites.net/',
-      techList: ['VS Code', 'React']
+      techList: ['VS Code', 'React', 'SASS']
     }
   ],
   experience: {
@@ -156,7 +156,14 @@ const database = {
         position: 'Microsoft Azure Support Engineer',
         company: 'Microsoft',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.'
+          'Worked with Microsoft customers to fix performance issues on their App Services. Advising customers on how to optimize performance and increase availability for their apps in the cloud. Document technical work and research to help my colleagues, improve product and improve the support experience. Maintain a proactive approach to customer happiness, identifying customer satisfaction concerns and managing customer expectations.',
+        techList: [
+          'Azure App Services',
+          'Azure Cloud Troubleshooting',
+          'C#',
+          '.NET Core',
+          'IIS 7'
+        ]
       },
       {
         id: 2,
@@ -164,7 +171,7 @@ const database = {
         position: 'Software Engineer',
         company: 'NASCENT Technology',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.'
+          'Designed, developed and delivered software to Intermodal port companies while working in an Agile environment. I helped scale the Port of Virginia project to include the In Yard gating processes which increased revenue for their company by a large margin. Designed and delivered the Ingate/Outgate system for the Port of San Juan Puerto Rico. Helped design and deliver the Ingate/Outgate system for the South Carolina Ports Authority. Supported customers on maintaining their software and reacted to problems relating to mission critical processes and mitigating them. Worked with the customers to flesh out requirements, communicated the development progress and supported live testing. On-site support for customers deployments into UAT and Production environments. Created windows applications, API services, web applications and integrated them with hardware devices.'
       },
       {
         id: 3,
@@ -172,7 +179,7 @@ const database = {
         position: 'React Web Developer (Contract)',
         company: 'Marlo Holdings LLC',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.'
+          'Designed and managed websites using the React and Next.js framework. Focused on SEO (Search Engine Optimization) and made high ranking sites on Google'
       }
     ],
     educationExperience: [

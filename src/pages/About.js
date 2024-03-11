@@ -112,7 +112,12 @@ function About() {
                     experience.
                   </p>
 
-                  <a href={information.cvfile} className="mi-button">
+                  <a
+                    href={information.cvfile}
+                    className="mi-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Download CV
                   </a>
                 </div>

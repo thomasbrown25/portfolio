@@ -29,8 +29,11 @@ steps:
   - task: CopyFiles@2
     inputs:
       sourceFolder: '$(Build.SourcesDirectory)'
-      contents: '**/$(BuildConfiguration)/**/?(*.exe|*.dll|*.pdb)'
+      contents: |
+       src/*
+       public/*
       targetFolder: '$(Build.ArtifactStagingDirectory)'
+    displayName: 'Copy project files'
 
   - task: PublishPipelineArtifact@0
     displayName: 'Publish pipeline artifact'

@@ -12,17 +12,17 @@ const database = {
     email: '',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: 'https://www.facebook.com/thomasbrown1125/',
+      twitter: 'https://twitter.com/ThomasB36901880',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/thomas-brown-a8005413b/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/thomasbrown25?tab=repositories'
     },
     brandImage: '/images/brand-image.jpg',
     aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    aboutImageLg: '/images/about-image.jpg',
     cvfile: '/files/Thomas_Brown_SoftwareEngineer.pdf'
   },
   services: [
@@ -104,7 +104,7 @@ const database = {
       id: 1,
       title: 'Financing App',
       subtitle:
-        'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode.',
+        'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode. This site is hosted on Azure App Services, repo in Azure Devops.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1.jpg'],
       url: 'https://financing-app.azurewebsites.net/login',
@@ -122,7 +122,7 @@ const database = {
       id: 2,
       title: 'Crown Clothing',
       subtitle:
-        'A ecommerce clothing website. This is in demo mode but has the capability to complete transactions.',
+        'A ecommerce clothing website. This is in demo mode but has the capability to complete transactions. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3.jpg'],
       url: 'https://crown-clothing.azurewebsites.net/',
@@ -131,7 +131,8 @@ const database = {
     {
       id: 3,
       title: 'Grand Hotel',
-      subtitle: 'A mock hotel website that displays some interactive CSS.',
+      subtitle:
+        'A mock hotel website that displays some interactive CSS. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-2.jpg',
       largeImageUrl: ['/images/portfolio-image-2.jpg'],
       url: 'https://grand-hotel-app.azurewebsites.net/',
@@ -141,10 +142,20 @@ const database = {
       id: 4,
       title: 'Nature Tours',
       subtitle:
-        'A mock nature / outdoors website that displays some interactive CSS and very slick design.',
+        'A mock nature / outdoors website that displays some interactive CSS and very slick design. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-4.jpg',
       largeImageUrl: ['/images/portfolio-image-4.jpg'],
       url: 'https://grand-hotel-app.azurewebsites.net/',
+      techList: ['VS Code', 'ReactJS', 'SASS']
+    },
+    {
+      id: 5,
+      title: 'Apple Ecommerce',
+      subtitle:
+        'A mock apple ecommerce website that displays some interactive CSS and very slick design. Hosted on Azure App Services, repo is in Github.',
+      imageUrl: '/images/portfolio-image-5.jpg',
+      largeImageUrl: ['/images/portfolio-image-5.jpg'],
+      url: 'https://apple-ecommerce.azurewebsites.net/',
       techList: ['VS Code', 'ReactJS', 'SASS']
     }
   ],

@@ -5,7 +5,8 @@ import ProgressiveImage from 'react-progressive-graceful-image';
 
 const Projects = ({ content }) => {
   const [toggler, setToggler] = useState(false);
-  const { title, subtitle, imageUrl, largeImageUrl, url, techList } = content;
+  const { title, subtitle, largeImageUrl, githubUrl, url, imageUrl, techList } =
+    content;
 
   const handleToggler = (value) => {
     setToggler(value);
@@ -21,19 +22,27 @@ const Projects = ({ content }) => {
           {(src) => <img src={src} alt={title} />}
         </ProgressiveImage>
         <ul>
-          {largeImageUrl && (
+          {githubUrl && (
             <li>
-              <button onClick={() => handleToggler(!toggler)}>
-                <Icon.ZoomIn />
-              </button>
+              <a rel="noopener noreferrer" target="_blank" href={githubUrl}>
+                <Icon.GitHub />
+              </a>
             </li>
           )}
 
           {url && (
             <li>
               <a rel="noopener noreferrer" target="_blank" href={url}>
-                <Icon.Link />
+                <Icon.Globe />
               </a>
+            </li>
+          )}
+
+          {largeImageUrl && (
+            <li>
+              <button onClick={() => handleToggler(!toggler)}>
+                <Icon.ZoomIn />
+              </button>
             </li>
           )}
         </ul>

@@ -107,6 +107,7 @@ const database = {
         'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode. This site is hosted on Azure App Services, repo in Azure Devops.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1.jpg'],
+      githubUrl: 'https://github.com/thomasbrown25/financing-app',
       url: 'https://financing-app.azurewebsites.net/login',
       techList: [
         'VS Code',
@@ -125,6 +126,7 @@ const database = {
         'A ecommerce clothing website. This is in demo mode but has the capability to complete transactions. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-3.jpg',
       largeImageUrl: ['/images/portfolio-image-3.jpg'],
+      githubUrl: 'https://github.com/thomasbrown25/ClothingShop',
       url: 'https://crown-clothing.azurewebsites.net/',
       techList: ['VS Code', 'ReactJS', 'Stripe', 'Firebase', 'Redux', 'SASS']
     },
@@ -135,6 +137,7 @@ const database = {
         'A mock hotel website that displays some interactive CSS. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-2.jpg',
       largeImageUrl: ['/images/portfolio-image-2.jpg'],
+      githubUrl: 'https://github.com/thomasbrown25/grand-hotel',
       url: 'https://grand-hotel-app.azurewebsites.net/',
       techList: ['VS Code', 'ReactJS', 'CSS3']
     },
@@ -145,7 +148,8 @@ const database = {
         'A mock nature / outdoors website that displays some interactive CSS and very slick design. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-4.jpg',
       largeImageUrl: ['/images/portfolio-image-4.jpg'],
-      url: 'https://grand-hotel-app.azurewebsites.net/',
+      githubUrl: 'https://github.com/thomasbrown25/nature-tours',
+      url: 'https://nature-tours.azurewebsites.net/',
       techList: ['VS Code', 'ReactJS', 'SASS']
     },
     {
@@ -155,6 +159,7 @@ const database = {
         'A mock apple ecommerce website that displays some interactive CSS and very slick design. Hosted on Azure App Services, repo is in Github.',
       imageUrl: '/images/portfolio-image-5.jpg',
       largeImageUrl: ['/images/portfolio-image-5.jpg'],
+      githubUrl: 'https://github.com/thomasbrown25/apple-ecommerce',
       url: 'https://apple-ecommerce.azurewebsites.net/',
       techList: ['VS Code', 'ReactJS', 'SASS']
     }

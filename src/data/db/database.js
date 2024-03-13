@@ -4,7 +4,7 @@ const database = {
   information: {
     name: 'Thomas Brown',
     aboutContent:
-      "I'm a software engineer specializing in building and desigining exceptional digital experiences. Currently, I'm working at Microsoft as a Support Engineer for Azure App Services, gaining experience in the Azure cloud.",
+      "I'm a Software Engineer specializing in building and desigining exceptional digital experiences. Currently, I'm working at Microsoft as a Support Engineer for Azure App Services, gaining experience in the Azure cloud.",
     age: 29,
     phone: '',
     nationality: 'American',

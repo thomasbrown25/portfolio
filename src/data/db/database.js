@@ -172,7 +172,7 @@ const database = {
         position: 'Microsoft Azure Support Engineer',
         company: 'Microsoft',
         details:
-          'Worked with Microsoft customers to fix performance issues on their App Services. Advising customers on how to optimize performance and increase availability for their apps in the cloud. Document technical work and research to help my colleagues, improve product and improve the support experience. Maintain a proactive approach to customer happiness, identifying customer satisfaction concerns and managing customer expectations.',
+          'Worked with Microsoft customers to fix performance issues and troubleshoot their .Net applications and Function Apps in Azure App Services. Advising customers on how to optimize performance and increase availability for their apps in the cloud. Document technical work and research to help my colleagues, improve product and improve the support experience.',
         techList: [
           'Azure App Services',
           'Azure Cloud Troubleshooting',
@@ -187,7 +187,7 @@ const database = {
         position: 'Software Engineer',
         company: 'NASCENT Technology',
         details:
-          'Designed, developed and delivered software to Intermodal port companies while working in an Agile environment. I helped scale the Port of Virginia project to include the In Yard gating processes which increased revenue for their company by a large margin. Designed and delivered the Ingate/Outgate system for the Port of San Juan Puerto Rico. Helped design and deliver the Ingate/Outgate system for the South Carolina Ports Authority. Supported customers on maintaining their software and reacted to problems relating to mission critical processes and mitigating them. Worked with the customers to flesh out requirements, communicated the development progress and supported live testing. On-site support for customers deployments into UAT and Production environments. Created windows applications, API services, web applications and integrated them with hardware devices.',
+          'Designed and implemented an automated gate system for intermodal port companies. Developed Windows Forms Applications, REST API Services and ASP.Net web apps using a combination of C#, VB.Net, React/Redux/Hooks. Provided on-site support for customers’ deployments into UAT and Production. Integrated the software with hardware devices such as RFID readers, barcode scanners, ticket printers and OCR portals which read the numbers on the containers. Worked with big intermoal companies such as South Carolina Port Authority, TraPac Port of Los Angeles, Port of San Juan, NIT Port of Virginia and others.',
         techList: [
           'ReactJS',
           'React Hooks',
@@ -201,7 +201,7 @@ const database = {
       {
         id: 3,
         year: '2018 - 2019',
-        position: 'React Web Developer (Contract)',
+        position: 'Web Developer',
         company: 'Marlo Holdings LLC',
         details:
           'Designed and managed websites using the React and Next.js framework. Focused on SEO (Search Engine Optimization) and made high ranking sites on Google',
@@ -211,19 +211,19 @@ const database = {
     educationExperience: [
       {
         id: 1,
-        year: '2018',
-        graduation: 'Web Developer Bootcamp',
-        university: 'University of North Carolina Charlotte',
-        details:
-          'Studied modern full stack web development using React, MongoDB, Express, NodeJS and more.'
-      },
-      {
-        id: 2,
         year: '2012 - 2016',
         graduation: "Bachelor's in Information Technology",
         university: 'Furman University',
         details:
           'Studied Data Structures, Design Patterns, Algorithms and history of Computer Science'
+      },
+      {
+        id: 2,
+        year: '2018',
+        graduation: 'Web Developer Bootcamp',
+        university: 'University of North Carolina Charlotte',
+        details:
+          'Studied modern full stack web development using React, MongoDB, Express, NodeJS and more.'
       }
     ],
     certificationExperience: [

@@ -104,23 +104,26 @@ const database = {
       id: 1,
       title: 'Financing App',
       subtitle:
-        'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode. This site is hosted on Azure App Services, repo in Azure Devops.',
+        'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode. This site is hosted on Azure App Services, repo in Azure Devops and GitHub.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/financing-app',
       url: 'https://financing-app.azurewebsites.net/login',
-      techList: [
-        'VS Code',
-        'React',
-        'Redux',
-        'C#',
-        '.NET 6',
-        'MS Entity Framework',
-        'Material UI'
-      ]
+      techList: ['VS Code', 'React', 'Redux', 'Material UI']
     },
     {
       id: 2,
+      title: 'Financing API',
+      subtitle:
+        'A backend API that is used to communicate to 3rd party Plaid API and to an Azure SQL database. This API application provides the data for the Financing App. This API is hosted on Azure App Services, repo in Azure Devops and GitHub.',
+      imageUrl: '/images/portfolio-image-10.jpg',
+      largeImageUrl: ['/images/portfolio-image-10.jpg'],
+      githubUrl: 'https://github.com/thomasbrown25/financing-app',
+      url: 'https://financing-app.azurewebsites.net/login',
+      techList: ['VS Code', 'C#', '.NET 6', 'MS Entity Framework']
+    },
+    {
+      id: 3,
       title: 'Crown Clothing',
       subtitle:
         'A ecommerce clothing website. This is in demo mode but has the capability to complete transactions. Hosted on Azure App Services, repo is in Github.',
@@ -131,7 +134,7 @@ const database = {
       techList: ['VS Code', 'ReactJS', 'Stripe', 'Firebase', 'Redux', 'SASS']
     },
     {
-      id: 3,
+      id: 4,
       title: 'Grand Hotel',
       subtitle:
         'A mock hotel website that displays some interactive CSS. Hosted on Azure App Services, repo is in Github.',
@@ -142,7 +145,7 @@ const database = {
       techList: ['VS Code', 'ReactJS', 'CSS3']
     },
     {
-      id: 4,
+      id: 5,
       title: 'Nature Tours',
       subtitle:
         'A mock nature / outdoors website that displays some interactive CSS and very slick design. Hosted on Azure App Services, repo is in Github.',
@@ -153,7 +156,7 @@ const database = {
       techList: ['VS Code', 'ReactJS', 'SASS']
     },
     {
-      id: 5,
+      id: 6,
       title: 'Apple Ecommerce',
       subtitle:
         'A mock apple ecommerce website that displays some interactive CSS and very slick design. Hosted on Azure App Services, repo is in Github.',

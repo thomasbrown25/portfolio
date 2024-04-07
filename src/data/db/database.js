@@ -109,7 +109,7 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-1.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/financing-app',
       url: 'https://financing-app.azurewebsites.net/login',
-      techList: ['VS Code', 'React', 'Redux', 'Material UI']
+      techList: ['VS Code', 'React', 'NodeJS 18', 'Redux', 'Material UI']
     },
     {
       id: 2,
@@ -131,7 +131,15 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-3.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/ClothingShop',
       url: 'https://crown-clothing.azurewebsites.net/',
-      techList: ['VS Code', 'ReactJS', 'Stripe', 'Firebase', 'Redux', 'SASS']
+      techList: [
+        'VS Code',
+        'ReactJS',
+        'NodeJS 18',
+        'Stripe',
+        'Firebase',
+        'Redux',
+        'SASS'
+      ]
     },
     {
       id: 4,
@@ -142,7 +150,7 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-2.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/grand-hotel',
       url: 'https://grand-hotel-app.azurewebsites.net/',
-      techList: ['VS Code', 'ReactJS', 'CSS3']
+      techList: ['VS Code', 'ReactJS', 'NodeJS 18', 'CSS3']
     },
     {
       id: 5,
@@ -153,7 +161,7 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-4.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/nature-tours',
       url: 'https://nature-tours.azurewebsites.net/',
-      techList: ['VS Code', 'ReactJS', 'SASS']
+      techList: ['VS Code', 'ReactJS', 'NodeJS 18', 'SASS']
     },
     {
       id: 6,
@@ -164,7 +172,7 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-5.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/apple-ecommerce',
       url: 'https://apple-ecommerce.azurewebsites.net/',
-      techList: ['VS Code', 'ReactJS', 'SASS']
+      techList: ['VS Code', 'ReactJS', 'NodeJS 18', 'SASS']
     }
   ],
   experience: {

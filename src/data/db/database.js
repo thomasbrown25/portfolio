@@ -120,7 +120,7 @@ const database = {
       largeImageUrl: ['/images/portfolio-image-10.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/financing-app',
       url: 'https://financing-app.azurewebsites.net/login',
-      techList: ['VS Code', 'C#', '.NET 6', 'MS Entity Framework']
+      techList: ['VS Code', 'C#', '.NET 8', 'MS Entity Framework']
     },
     {
       id: 3,

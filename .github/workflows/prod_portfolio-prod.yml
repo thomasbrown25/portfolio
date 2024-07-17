@@ -11,29 +11,27 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Node.js version
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: npm install, build, and test
         run: |
-          npm install --legacy-peer-deps
+          npm install
           npm run build --if-present
-
-      - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
-
+          npm run test --if-present
+      
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: release.zip
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -41,24 +39,27 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: node-app
-
-      - name: unzip artifact for deployment
-        run: unzip release.zip
-
-      - name: 'Delete the zip'
-        run: rm release.zip
+      
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_9AA72FEB1E194125A4C4D365ED5B44AE }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_D85A8ADEFED54251A4254471B16310AA }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_AF0420B05AA542D7B1961B18B7DBD903 }}
 
       - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
+        id: deploy-to-webapp
         with:
-          app-name: 'grand-hotel-app'
+          app-name: 'portfolio-prod'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07C668C1E1844EF28A5971A07D51D0F9 }}
           package: .
+          

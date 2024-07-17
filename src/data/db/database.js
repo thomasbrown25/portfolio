@@ -108,7 +108,7 @@ const database = {
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/financing-app',
-      url: 'https://financing-app.azurewebsites.net/login',
+      url: 'https://financing-app.com',
       techList: ['VS Code', 'React', 'NodeJS 18', 'Redux', 'Material UI']
     },
     {
@@ -119,7 +119,7 @@ const database = {
       imageUrl: '/images/portfolio-image-10.jpg',
       largeImageUrl: ['/images/portfolio-image-10.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/financing-app',
-      url: 'https://financing-app.azurewebsites.net/login',
+      url: 'https://financing-app.com',
       techList: ['VS Code', 'C#', '.NET 8', 'MS Entity Framework']
     },
     {

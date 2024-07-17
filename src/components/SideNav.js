@@ -4,7 +4,7 @@ import LineIcon from 'react-lineicons';
 import ProgressiveImage from 'react-progressive-graceful-image';
 import { Link, NavLink } from 'react-router-dom';
 
-function Header() {
+function SideNav() {
   const [information, setInformation] = useState('');
   const [navigationToggler, setNavigationToggler] = useState(false);
 
@@ -79,4 +79,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default SideNav;

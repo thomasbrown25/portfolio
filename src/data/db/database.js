@@ -20,7 +20,7 @@ const database = {
       dribbble: '',
       github: 'https://github.com/thomasbrown25?tab=repositories'
     },
-    brandImage: '/images/brand-image.jpg',
+    brandImage: '/images/brand-image.JPG',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image.jpg',
     cvfile: '/files/Thomas_Brown_SoftwareEngineer.pdf'

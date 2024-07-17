@@ -104,7 +104,7 @@ const database = {
       id: 1,
       title: 'Financing App',
       subtitle:
-        'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode. This site is hosted on Azure App Services, repo in Azure Devops and GitHub.',
+        'A personal finance app that helps you budget and track finance needs. This app is currently in demo mode. This site is hosted on Azure Static Web Apps, repo in Azure Devops and GitHub.',
       imageUrl: '/images/portfolio-image-1.jpg',
       largeImageUrl: ['/images/portfolio-image-1.jpg'],
       githubUrl: 'https://github.com/thomasbrown25/financing-app',
